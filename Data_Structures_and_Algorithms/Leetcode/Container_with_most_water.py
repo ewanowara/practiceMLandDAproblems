@@ -1,7 +1,7 @@
 '''
 Given a bar plot defined with an array, output the container that can hold the most water
 Want to maximize the width and height to maximize the volume of the water
-'''
+''' 
 def max_area(height): 
     # start with 2 pointers - one at the very left and right
     # compute area with this max width 
