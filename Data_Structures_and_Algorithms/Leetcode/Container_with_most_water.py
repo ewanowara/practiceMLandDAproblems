@@ -32,7 +32,7 @@ def max_area(height):
         right_pointer = height[right_pointer_idx]
 
         area = max(area, abs((right_pointer_idx)-left_pointer_idx) * min(left_pointer, right_pointer))   
-    return area
+    return area 
 
 if __name__ == "__main__":
     # Example   
